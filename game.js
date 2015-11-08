@@ -35,4 +35,11 @@
         alert("When I go online I will show you!")
       }
 
-
+      var game4 = 'SKYNET';
+      var pick4 = prompt('Do you know who I am!');
+      if (game4 === pick4 || pick4 === 'skynet' || pick4 === 'Skynet' || pick4 === 'SkyNet'){
+        alert("You know the name of your doom!")
+      }
+      else{
+        alert("What, it should be obvious! I am SKYNET and I will rule the world!!!!")
+      }

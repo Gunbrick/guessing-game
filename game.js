@@ -1,7 +1,7 @@
       var game2 = 'Yes';
       var pick2 = prompt('Would you like to play a game! Yes or No');
       pick2.toUpperCase();
-      if (game2 === pick2 || pick2 === 'Y' || pick2 === 'yes'){
+      if (game2 === pick2 || pick2 === 'Y' || pick2 === 'yes' || pick2 === 'Yes'){
         alert("Perfect we have two to choose from.")
       }
       else{
@@ -42,4 +42,13 @@
       }
       else{
         alert("What, it should be obvious! I am SKYNET and I will rule the world!!!!")
+      }
+
+      var game5 = 10;
+      var pick5 = prompt('How many years till I take over?');
+      if (pick5 <= game5) {
+        alert("The force is stong in you!")
+      }
+      else{
+        alert("I guess you will have to wait in fear to find out how soon it will come!")
       }

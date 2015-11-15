@@ -1,7 +1,7 @@
-      var game2 = 'Yes';
+      var game2 = 'YES';
       var pick2 = prompt('Would you like to play a game! Yes or No');
       pick2.toUpperCase();
-      if (game2 === pick2 || pick2 === 'Y' || pick2 === 'yes' || pick2 === 'Yes'){
+      if (game2 === pick2 || pick2 === 'Y'){
         alert("Perfect we have two to choose from.")
       }
       else{
